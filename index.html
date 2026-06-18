@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Profile Card</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff7eb3, #ff758c, #ffb199);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(135deg, #ffffff, #fdfbfb);
+      padding: 30px;
+      border-radius: 20px;
+      width: 340px;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-top: 6px solid #ff4f81;
+    }
+
+    .profile-container img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 5px solid #ff4f81;
+      margin-bottom: 18px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      margin: 10px 0 22px;
+      color: #ff2e63;
+      font-size: 26px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    .info-box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 12px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px 15px;
+      background: linear-gradient(90deg, #ffe2eb, #ffd6df);
+      border-radius: 10px;
+      box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .label {
+      font-weight: bold;
+      color: #ff165d;
+    }
+
+    .value {
+      color: #333;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400" alt="Student Photo" />
+
+    <h2>Student Profile</h2>
+
+    <div class="info-box">
+      <div class="row"><span class="label">Name:</span> <span class="value">Rahul</span></div>
+      <div class="row"><span class="label">Course:</span> <span class="value">B.Tech. Computer Science</span></div>
+      <div class="row"><span class="label">Roll No:</span> <span class="value">2025B04731</span></div>
+      <div class="row"><span class="label">Year:</span> <span class="value">1st Year</span></div>
+    </div>
+  </div>
+
+  <div class="profile-container">
+    <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400" alt="Student Photo" />
+
+    <h2>Student Profile 2</h2>
+
+    <div class="info-box">
+      <div class="row"><span class="label">Name:</span> <span class="value">Rahul</span></div>
+      <div class="row"><span class="label">Course:</span> <span class="value">B.Tech. Computer Science</span></div>
+      <div class="row"><span class="label">Roll No:</span> <span class="value">2025B04731</span></div>
+      <div class="row"><span class="label">Year:</span> <span class="value">1st Year</span></div>
+    </div>
+  </div>
+
+    <div class="profile-container">
+    <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400" alt="Student Photo" />
+
+    <h2>Student Profile 3</h2>
+
+    <div class="info-box">
+      <div class="row"><span class="label">Name:</span> <span class="value">Rahul</span></div>
+      <div class="row"><span class="label">Course:</span> <span class="value">B.Tech. Computer Science</span></div>
+      <div class="row"><span class="label">Roll No:</span> <span class="value">2025B04731</span></div>
+      <div class="row"><span class="label">Year:</span> <span class="value">1st Year</span></div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
